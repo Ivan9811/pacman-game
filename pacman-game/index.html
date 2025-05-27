@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAC-MAN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PAC-MAN</h1>
+
+        <!-- Panel de información del juego -->
+        <div class="game-info">
+            <div class="score-board">
+                <p>Puntuación: <span id="score">0</span></p>
+            </div>
+            <div class="lives-board">
+                <p>Vidas: <span id="lives">3</span></p>
+            </div>
+            <button id="restart-button" class="restart-button">Reiniciar Juego</button>
+        </div>
+
+        <!-- Tablero del juego -->
+        <div class="grid">
+            <div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div>
+            <div class="wall"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="wall"></div>
+            <div class="wall"></div><div class="dot"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="dot"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div>
+            <div class="wall"></div><div class="dot"></div><div class="wall"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="wall"></div>
+            <div class="wall"></div><div class="dot"></div><div class="wall"></div><div class="dot"></div><div class="wall"></div><div class="dot"></div><div class="wall"></div><div class="dot"></div><div class="dot"></div><div class="wall"></div>
+            <div class="wall"></div><div class="dot"></div><div class="wall"></div><div class="dot"></div><div class="wall"></div><div class="dot"></div><div class="wall"></div><div class="wall"></div><div class="dot"></div><div class="wall"></div>
+            <div class="wall"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="wall"></div><div class="dot"></div><div class="dot"></div><div class="wall"></div><div class="dot"></div><div class="wall"></div>
+            <div class="wall"></div><div class="dot"></div><div class="wall"></div><div class="dot"></div><div class="wall"></div><div class="dot"></div><div class="wall"></div><div class="wall"></div><div class="dot"></div><div class="wall"></div>
+            <div class="wall"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="wall"></div><div class="dot"></div><div class="wall"></div>
+            <div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div><div class="wall"></div>
+        </div>
+
+        <!-- Información de controles -->
+        <div class="controls-info">
+            <p>Controles: Usa las flechas del teclado para mover a Pac-Man</p>
+            <p>Come las power pills (puntos grandes) para poder comer fantasmas</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
