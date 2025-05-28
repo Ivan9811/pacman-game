@@ -1,9 +1,3 @@
-/**
- * JUEGO PAC-MAN
- * Implementación completa del clásico juego Pac-Man con JavaScript vanilla
- * Incluye: movimiento de Pac-Man, fantasmas, sistema de vidas, power pills y fantasmas asustados
- */
-
 document.addEventListener('DOMContentLoaded', () => {
     // ========== ELEMENTOS DEL DOM ==========
     const grid = document.querySelector('.grid');
